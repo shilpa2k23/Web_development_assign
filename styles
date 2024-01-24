@@ -1,0 +1,36 @@
+body{
+    background-color:orange;
+    text-align:center;
+    background-image: url("https://images.collegedunia.com/public/college_data/images/campusimage/1435406111IMG_1.JPG");
+  }
+  form {
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: white;
+  }
+  input{
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    
+    
+  }
+  .input-element {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;}
+    input[type="checkbox"] {
+      width: 15px;
+      height: 12px;
+  
+    }
+    
+  
+  
+    
+  
+  
+  
