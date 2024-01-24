@@ -1,0 +1,51 @@
+<DOCTYPE!>
+  <html>
+    <head>
+<title>Survey-Form</title>
+    </head>
+    <body>
+      <header> 
+        <link rel="stylesheet" href="styles.css">
+        <h1 id="title">Survey-form</h1>
+      <p id="description">Which is most preferable to people of india?</p>
+      </header>
+      <main>
+        <form id="survey-form">
+          <label for="name"id="name-label" >enter your name:</label>
+<input id="name" type="text" required placeholder="name"> 
+<hr>
+<label for="email" id="email-label">enter your email:</label>
+<input id="email" type="email" required placeholder="email"> 
+<hr>
+<label for="number" id="number-label">enter your age:</label>
+<input id="number" type="number" min="10" max="100" required placeholder="number">
+<hr>
+<label>which you like most?</label>
+<div>
+<select id="dropdown">
+  <option>tea</option>
+  <option>coffee</option>
+  </select></div>
+<hr>
+<label>which is your favourite snacks?</label><div>
+  <input type="radio" name="radio-buttons" id="bread" value="1">
+  <label for="bread">bread</label>
+  <input type="radio" name="radio-buttons" id="biscuits" value="0">
+  <label for="biscuits">biscuits</label></div>
+  <hr>
+  <input type="checkbox" value="1" id="sweet">
+  <label for="sweet">sweet</label>
+ 
+  <input type="checkbox" value="1" id="spicy">
+  <label for="spicy">spicy</label>
+<hr>
+<textarea>comment here:</textarea>
+<hr> 
+<input type="submit" id="submit">
+ 
+          </form>
+      </main>
+
+
+    </body>
+  </html>
